@@ -10,3 +10,6 @@ if(keyboard_check(vk_left))
 	x -= 4;
 if(keyboard_check(ord("A")))
 	x -= 4;
+
+x = clamp(x, 50, room_width-120);
+y = clamp(y, 50, room_height-50);

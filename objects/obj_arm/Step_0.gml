@@ -24,3 +24,5 @@ if(keyboard_check(ord("S"))){
 		image_angle -= 11;
 }
 
+x = clamp(x, 35, room_width-120);
+y = clamp(y, 30, room_height-80);

@@ -4,16 +4,20 @@
 
 if(timerr < 10){
 
-timerr += 1/60;
-
+timerr += 3/60;
+i += 1;
 
 x = vx * timerr * 10;
-var current_y = y;
-var y_val = y_pos + vy * timerr - 4.9*power(timerr, 2) * 10;
-var diff = abs(current_y - y_val);
+var y_val = (y_pos + vy * timerr - 4.9*power(timerr, 2)) * 10;
+var diff = y_val - y_tracker;
 
-y = current_y - diff;
-show_debug_message(string(diff) + " " + string(y) + string(timerr));
+y_tracker = y_val;
+
+y -= diff;
+
+
+show_debug_message(string(y_val) + " " + string(y) +  " " + string(diff) + " " + string(timerr));
+diff = 0;
 }
 
 
