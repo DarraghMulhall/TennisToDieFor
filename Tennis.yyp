@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "253add81-42c5-4421-acea-fc584131b539",
+            "Value": {
+                "id": "1f9e2e05-15ae-40d7-b354-ea9aada1e43f",
+                "resourcePath": "objects\\collection_trophies\\collection_trophies.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "29d48760-942b-404a-999a-5a1079db5b9e",
+            "Value": {
+                "id": "327f6df9-cd98-4566-bc7f-b10a7aca64a1",
+                "resourcePath": "objects\\bomb_spawner\\bomb_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2ae4cec4-56c4-4178-8fb5-6c6311af3377",
             "Value": {
                 "id": "0af56dcb-6896-410f-ba9f-1696103035dc",
@@ -87,6 +103,14 @@
             }
         },
         {
+            "Key": "569e1f6c-db7b-4d92-8ee2-c472c2c61a96",
+            "Value": {
+                "id": "490ebe23-7ae4-4155-9e49-5fb11d40513f",
+                "resourcePath": "objects\\obj_bomb\\obj_bomb.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "585a0279-d9ea-48e0-958d-6aed5cbb1cba",
             "Value": {
                 "id": "c7433a09-5e6e-44e8-bfbb-d4fac85efdd4",
@@ -108,6 +132,22 @@
                 "id": "4403ad04-4701-43f6-9bf4-4dc31c471a2a",
                 "resourcePath": "views\\6607e369-2d03-45c6-a33e-cb377217863d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "66934b04-d4ca-4260-8703-fe6aa880b913",
+            "Value": {
+                "id": "52725dbe-b293-4bd4-8db1-cc1dccc27a0b",
+                "resourcePath": "sprites\\trophy\\trophy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "66c8300e-28aa-4407-8133-16f22db6939c",
+            "Value": {
+                "id": "4ada4296-5eda-49e6-9df4-c8ced402ba00",
+                "resourcePath": "objects\\obj_net\\obj_net.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -135,11 +175,27 @@
             }
         },
         {
+            "Key": "7433f68b-46ea-4738-a640-65714c59d729",
+            "Value": {
+                "id": "eddb4c15-6d37-46e1-8922-c8ff3b6a778e",
+                "resourcePath": "sprites\\bomb\\bomb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7597320f-4c84-44c4-804b-9485d9316a19",
             "Value": {
                 "id": "f393e241-c226-45df-b853-2075d933476f",
                 "resourcePath": "objects\\obj_ball\\obj_ball.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "764b56eb-765c-4b2b-90d0-12d815e801df",
+            "Value": {
+                "id": "09f4a727-d1a9-4786-842f-caa66aff030e",
+                "resourcePath": "sprites\\table\\table.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -191,6 +247,22 @@
             }
         },
         {
+            "Key": "c4c52639-9b0d-46a3-838e-c8c2123fdbe9",
+            "Value": {
+                "id": "da54fa4f-4f62-4696-a3b4-82a7968f30d1",
+                "resourcePath": "objects\\obj_table\\obj_table.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c519a7d7-d840-43ac-aac4-7985336fcb63",
+            "Value": {
+                "id": "b671d3de-efd9-4691-b6fa-2a20cdfb3348",
+                "resourcePath": "sprites\\net\\net.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c8e4e6ac-e58b-4ab8-8c4f-3de542bc3cf4",
             "Value": {
                 "id": "575a3096-03fe-41d5-95cf-8f297ed4edea",
@@ -212,6 +284,14 @@
                 "id": "1ca4278e-daa3-4a19-945a-71ac2864ac7b",
                 "resourcePath": "views\\cea6f8e7-f05e-4a6a-9bf6-5a63f6dd9258.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cff81d87-fc49-40f5-b058-fedc4be72728",
+            "Value": {
+                "id": "f518ea06-87d5-4a9e-b8eb-559837c277fb",
+                "resourcePath": "objects\\obj_trophy\\obj_trophy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
