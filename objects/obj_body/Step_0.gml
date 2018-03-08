@@ -11,6 +11,6 @@ if(keyboard_check(vk_left))
 if(keyboard_check(ord("A")))
 	x -= 8;
 
-x = clamp(x, 50, net_x-83);
+x = clamp(x, 150, net_x-83);
 y = clamp(y, 50, room_height-50);
 

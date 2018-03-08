@@ -1,18 +1,28 @@
 {
-    "id": "253add81-42c5-4421-acea-fc584131b539",
+    "id": "b428d1f6-f86f-4b8e-b1f8-e1a428e22b10",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "collection_trophies",
+    "name": "player_score",
     "eventList": [
         {
-            "id": "3a99b5e0-dbd9-44ba-8b7e-ef6da19a8015",
+            "id": "41b10b79-b4af-44d5-89e4-f8cbe886257c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "7597320f-4c84-44c4-804b-9485d9316a19",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "253add81-42c5-4421-acea-fc584131b539"
+            "eventtype": 0,
+            "m_owner": "b428d1f6-f86f-4b8e-b1f8-e1a428e22b10"
+        },
+        {
+            "id": "240794ce-b454-49a6-8f61-6ec22b0d24f1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "b428d1f6-f86f-4b8e-b1f8-e1a428e22b10"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

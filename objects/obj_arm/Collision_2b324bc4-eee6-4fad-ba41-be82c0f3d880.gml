@@ -9,6 +9,9 @@ var smashed = clicked_smash;
 with(other){
 	
 	if(y < ground_y && hit_racket == false && (keyboard_check(ord("W")) || (keyboard_check(ord("S")) || smashed))){
+		
+		audio_play_sound(hitting_ball_sound, 10, false);
+		
 		timerr = 0;
 		y_pos = y/10;
 		x_landing = x;

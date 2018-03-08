@@ -1,5 +1,6 @@
 
 ground_y = 565;
+net_x = 810;
 
 timerr = 0.0000;
 timerr_incr = random_range(3/60, 4/60)
@@ -25,3 +26,5 @@ hit_net = false;
 hit_backwards = false;
 
 hit_trophy = false;
+
+over_net = false;

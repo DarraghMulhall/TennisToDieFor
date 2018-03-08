@@ -3,5 +3,4 @@
 
 with(other){
 		hit_net = true;
-		show_debug_message(string(x))
 }

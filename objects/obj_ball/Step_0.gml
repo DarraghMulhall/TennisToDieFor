@@ -3,8 +3,9 @@
 
 
 if(!hit_net){
+	
 
-	if(x < 0)
+	if(x < 0 || (hit_racket && x > room_width))
 		instance_destroy();
 	if(current_velocity > 0.5){
 
@@ -20,10 +21,20 @@ if(!hit_net){
 	y_tracker = y_val;
 
 	y -= diff
-
-
+	
+	
+	//increment score if user got ball over net
+	if(hit_racket){
+		if(x > net_x+50 && !hit_net && !over_net){
+			over_net = true;
+			show_debug_message("1");
+			score+=1;
+		}	
+	}
+	
+	//bounce on ground
 	if(y>ground_y){
-
+	audio_play_sound(ball_bounce_sound, 10, false);
 	y_pos = y/10;
 	timerr = 0
 	x_landing = x;

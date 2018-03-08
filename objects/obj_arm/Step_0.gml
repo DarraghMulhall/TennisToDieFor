@@ -36,6 +36,6 @@ else{
 	
 }
 
-x = clamp(x, 35, net_x-100);
+x = clamp(x, 133, net_x-100);
 y = clamp(y, 30, room_height-80);
 
