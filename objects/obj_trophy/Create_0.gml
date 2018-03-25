@@ -1,11 +1,11 @@
-/// @description Insert description here
-// You can write your code in this editor
+//trophy object which can be hit by a ball and fly off the table 
+//in a realistic projectile trajectory (same as the balls) and rotate in the air
 
 ball_collision = false;
 
-
 ground_y = 565;
 
+//variables used in formula for projectile trajectory
 timerr = 0.0000;
 timerr_incr = random_range(3/60, 4/60)
 
@@ -24,5 +24,5 @@ x_landing = x;
 current_velocity = init_velocity;
 
 
-hit_by_body = false;
+
 

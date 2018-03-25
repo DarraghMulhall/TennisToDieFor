@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "213c6c4a-c30f-483d-9c76-a1916450d769",
+            "Value": {
+                "id": "76faa262-e3e6-487f-beb1-6e2dce8aa528",
+                "resourcePath": "sprites\\score_label\\score_label.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "29d48760-942b-404a-999a-5a1079db5b9e",
             "Value": {
                 "id": "327f6df9-cd98-4566-bc7f-b10a7aca64a1",
@@ -84,6 +92,14 @@
                 "id": "ff88eb44-87d0-4939-a88e-0f5d0947c8bc",
                 "resourcePath": "sounds\\ball_bounce_sound\\ball_bounce_sound.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "2e74fde7-2fc9-479f-8c48-1a59b15b8534",
+            "Value": {
+                "id": "73c734df-679a-4940-af72-18e05738225b",
+                "resourcePath": "objects\\obj_score_label\\obj_score_label.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -146,7 +162,7 @@
             "Key": "515fa20b-5e1f-45b2-801a-14a2a8468712",
             "Value": {
                 "id": "802673eb-ebb0-4029-8308-4b40d118fedd",
-                "resourcePath": "objects\\main_menu_handler\\main_menu_handler.yy",
+                "resourcePath": "objects\\game_handler\\game_handler.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -279,6 +295,14 @@
             }
         },
         {
+            "Key": "7c2c8c1b-8963-43b3-85d3-0398064ce744",
+            "Value": {
+                "id": "2045e237-67c2-4cc4-9802-020bb88e7a04",
+                "resourcePath": "objects\\game_over_handler\\game_over_handler.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7da141f4-5ab0-48c9-a25f-10ec74c16562",
             "Value": {
                 "id": "c21326f0-0242-4bc7-b749-fb9f3fa89611",
@@ -359,6 +383,14 @@
             }
         },
         {
+            "Key": "bf58a72b-3f34-4447-ac5e-a65c1f6bbb51",
+            "Value": {
+                "id": "3b0cbed5-6633-489c-b77d-0fbfb913bacb",
+                "resourcePath": "rooms\\game_over_screen\\game_over_screen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "c417beae-592a-4064-b6f8-c6cd41bcb3b6",
             "Value": {
                 "id": "f4695269-42c7-48de-8f49-8e83f8bf5d10",
@@ -431,27 +463,11 @@
             }
         },
         {
-            "Key": "d0d4f6e3-eb0a-4e1d-9914-943b0bda6ae0",
-            "Value": {
-                "id": "227d0f7d-e056-4e50-9e4a-f1b48f814284",
-                "resourcePath": "objects\\help_page\\help_page.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "d3b089bc-f1b7-4573-af42-5c7cfc88188e",
             "Value": {
                 "id": "5420252f-9529-4c47-8748-8a64e73800f4",
                 "resourcePath": "views\\d3b089bc-f1b7-4573-af42-5c7cfc88188e.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "dcf57de6-94a1-442b-b7c2-e68ad73d268f",
-            "Value": {
-                "id": "e1f4e30c-51ab-4a0c-914e-a38978102291",
-                "resourcePath": "objects\\diff_menus\\diff_menus.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -463,19 +479,19 @@
             }
         },
         {
-            "Key": "e6426fc3-ff90-43ed-84bb-2192e859c8d2",
-            "Value": {
-                "id": "07d60ab0-35f5-42fd-ae97-36172de09927",
-                "resourcePath": "objects\\obj_scoreboard\\obj_scoreboard.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "f84cc4d3-4767-4d87-9799-228a2f45de6d",
             "Value": {
                 "id": "1d88258c-20ea-4378-a366-51970b4b8c2e",
                 "resourcePath": "views\\f84cc4d3-4767-4d87-9799-228a2f45de6d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ff5da1bc-b42a-4f1d-9e05-bab484c31470",
+            "Value": {
+                "id": "0a29df5a-b4a4-491c-bf6d-a8096c9ab478",
+                "resourcePath": "sprites\\game_over_bg\\game_over_bg.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],

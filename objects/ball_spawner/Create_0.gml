@@ -1,5 +1,15 @@
-/// @description Insert description here
-// You can write your code in this editor
+//ball spawner, that spawns at intervals specified by difficulty
 
-spawnrate = 120;
+if(current_difficulty == 0)
+	spawnrate = 240;
+	
+if(current_difficulty == 1)
+	spawnrate = 180;
+	
+if(current_difficulty == 2)
+	spawnrate = random_range(100, 150);
+	
+if(current_difficulty == 3)
+	spawnrate = random_range(60, 90);
+	
 alarm[0] = spawnrate;

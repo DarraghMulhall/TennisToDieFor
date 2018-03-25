@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+//if the net is hit by a ball, set the hit_net var in that specific ball to true
 
 with(other){
 		hit_net = true;

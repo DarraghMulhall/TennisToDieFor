@@ -5,16 +5,6 @@
     "name": "obj_trophy",
     "eventList": [
         {
-            "id": "b8702d64-c7b6-4287-8ca3-4e481400bdb6",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "7597320f-4c84-44c4-804b-9485d9316a19",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "cff81d87-fc49-40f5-b058-fedc4be72728"
-        },
-        {
             "id": "971e0a83-17b1-4504-b7b9-bc788396d0d2",
             "modelName": "GMEvent",
             "mvc": "1.0",

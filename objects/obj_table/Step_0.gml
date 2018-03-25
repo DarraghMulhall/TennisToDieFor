@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+//if hit by body or racket, make all remaining trophies fall to the ground and rotate in air
 
 if(hit_by_body || hit_by_racket){
 	with(obj_trophy){

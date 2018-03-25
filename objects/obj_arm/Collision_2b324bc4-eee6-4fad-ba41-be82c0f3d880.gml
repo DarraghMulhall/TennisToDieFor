@@ -1,5 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
+//if racket hits a ball, set trajectory values for that ball
+//ball can be hit backwards
+//underarm hit will lob ball, over arm hit will be straight/low arc
 
 
 var arm_x = x;
@@ -29,7 +30,6 @@ with(other){
 			current_velocity = init_velocity + 5;
 		}
 		else if(smashed){
-			show_debug_message("smash");
 			angle += 100;
 			timerr_incr += 6/60;
 			current_velocity = init_velocity + 15;

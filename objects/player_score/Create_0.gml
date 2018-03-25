@@ -1,3 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-score = 0;
+//set global score to 0 for new game when game starts
+
+if(room == play_room)
+	score = 0;

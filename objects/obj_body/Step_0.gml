@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+//move body based off user input and set boundaries of its x and y
 
 if(keyboard_check(vk_right))
 	x += 8;

@@ -1,8 +1,8 @@
 {
-    "id": "e6426fc3-ff90-43ed-84bb-2192e859c8d2",
+    "id": "2e74fde7-2fc9-479f-8c48-1a59b15b8534",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_scoreboard",
+    "name": "obj_score_label",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "7da141f4-5ab0-48c9-a25f-10ec74c16562",
+    "spriteId": "213c6c4a-c30f-483d-9c76-a1916450d769",
     "visible": true
 }
